@@ -1,0 +1,11 @@
+** Get list of all access you can provide user on file/folder.
+-  [system.enum]::getnames([System.Security.AccessControl.FileSystemRights])
+
+** Create new file in the directory
+- New-Item -Path 'C:\Users\prati\Chef' -ItemType Directory  
+
+** Know permission of file/folder
+- Get-ACL -Path <folder_name>
+
+** Change file/folder permission
+- 
